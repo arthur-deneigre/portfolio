@@ -1,0 +1,273 @@
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+/* Hero styles */
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    width: 50%;
+    text-align: left;
+}
+
+.hero-image {
+    width: 50%;
+    text-align: right;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* About styles */
+#about {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Resume styles */
+#resume {
+    background-color: #111;
+    padding: 50px 0;
+}
+
+.resume-content {
+    display: flex;
+    gap: 50px;
+}
+
+.education, .experience {
+    width: 50%;
+}
+
+.education ul, .experience ul {
+    padding: 0;
+    margin: 0;
+}
+
+.education li, .experience li {
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skills li {
+    background-color: #555;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Technical Skills styles */
+#technical-skills {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+.skills-content {
+    display: flex;
+    gap: 50px;
+}
+
+.software-skills, .coding-skills {
+    width: 50%;
+}
+
+.software-skills ul, .coding-skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.software-skills li, .coding-skills li {
+    background-color: #555;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Work styles */
+#work {
+    background-color: #111;
+    padding: 50px 0;
+}
+
+.work-content {
+    display: flex;
+    gap: 50px;
+}
+
+.project {
+    width: 50%;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Activities styles */
+#activities {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+.activities-content {
+    display: flex;
+    gap: 50px;
+}
+
+.activity {
+    width: 50%;
+}
+
+/* Hobbies styles */
+#hobbies {
+    background-color: #111;
+    padding: 50px 0;
+}
+
+.hobbies-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobby {
+    width: 25%;
+    text-align: center;
+}
+
+.hobby img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Contact styles */
+#contact {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.contact-content div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-content img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* CTA styles */
+.cta {
+    background-color: #fff;
+    color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #eee;
+}
+
+/* Scroll down button styles */
+.scroll-down {
+    display: inline-block;
+    background-color: #fff;
+    color: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.scroll-down:hover {
+    background-color: #eee;
+}
